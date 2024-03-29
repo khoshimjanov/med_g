@@ -15,6 +15,4 @@ class AppImages {
   static const onb3 = "${pathImages}3_onb.png";
   static const picture = "${pathImages}picture.jpeg";
   static const appBar = "${pathImages}appbar.jpeg";
-
-
 } 
