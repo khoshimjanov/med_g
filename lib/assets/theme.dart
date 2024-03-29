@@ -18,7 +18,7 @@ class AppTheme {
             fontFamily: "Barlow",
             fontSize: 20,
             fontWeight: FontWeight.w300,
-            color: colors.white,
+            // color: colors.white,
           ),
           fontSize40Weight700: TextStyle(
             fontSize: 40,

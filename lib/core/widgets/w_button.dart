@@ -52,7 +52,8 @@ class WButton extends StatelessWidget {
             }
           },
           isDisabled: disabled,
-          child: Container( padding: const EdgeInsets.symmetric(vertical: 12) ,
+          child: Container(
+            padding: const EdgeInsets.symmetric(vertical: 12),
             width: width,
             height: height,
             decoration: BoxDecoration(
@@ -71,7 +72,7 @@ class WButton extends StatelessWidget {
                           text,
                           style: textStyle ??
                               context.style.fontSize16Weight500.copyWith(
-                                  color: context.colors.white,
+                                  // color: AppColors.white,
                                   decorationColor:
                                       context.colors.buttonDisabledColor),
                         ),

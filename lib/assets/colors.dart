@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  final white = const Color(0xFFFFFFFF);
+ static final white = const Color(0xFFFFFFFF);
   final black = const Color(0xFF000000);
   final mainDark = const Color(0xFF131524);
   final border_textfield = Color.fromRGBO(0, 110, 233, 0.10);
@@ -90,7 +90,7 @@ static const textColorRed = Color(0xFFE8425E);
   final onBoardTextColor = const Color(0xFFFEFEFE).withOpacity(0.5);
   final onBoarding = const Color(0xFF4B7FD6).withOpacity(0.32);
   final onBordingComponet = const Color(0xFF4B7FD6);
-  final blue = const Color(0xFF006EE9);
+ static final blue = const Color(0xFF006EE9);
   final innerAlignmentSecond = const Color(0xFFE2EAF9);
   final darkBlue = const Color.fromRGBO(43, 48, 74, 1);
   final blueGradient = const Color.fromRGBO(75, 127, 214, 1);
@@ -173,4 +173,10 @@ static const textColor = Color(0xFF1D3A62);
   // createHomeItems
   final Color createhomeitem = const Color(0xFF4B7FD6);
   final Color createhomeitemwhite = const  Color(0xFFFEFEFE);
+  static const background = Color(0XFFFAFAFA);
+  static const stroke = Color(0XFFECEDF0);
+  static const secondary = Color(0XFFAFB6C4);
+  static const grey = Color(0XFF8C97AB);
+  static const dark =  Color(0XFF001444);
+  static const red = Color(0XFFE32940);
 }

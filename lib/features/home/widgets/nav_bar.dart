@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:med_g/assets/icons.dart';
 
@@ -56,7 +55,6 @@ class MainNavigationBar extends StatelessWidget {
           ],
           currentIndex: selectedIndex,
           onTap: (value){action(value);
-     
           },
         ),
       ),

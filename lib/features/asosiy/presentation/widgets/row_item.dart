@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:med_g/assets/colors.dart';
 import 'package:med_g/core/extensions/data_time_extension.dart';
 import 'package:med_g/core/extensions/extensions.dart';
 
@@ -35,7 +36,7 @@ class RowItem extends StatelessWidget {
         width: 37,
         decoration: isSelected
             ? BoxDecoration(
-                color: context.colors.blue,
+                color: AppColors.blue,
                 borderRadius: BorderRadius.circular(10),
               )
             : !isActiveMonth
@@ -53,13 +54,13 @@ class RowItem extends StatelessWidget {
             fontSize: 12,
             fontWeight: FontWeight.w500,
             color: isSelected
-                ? context.colors.white
+                ? AppColors.white
                 : isPassed
                     ? isActiveMonth
-                        ? context.colors.white
+                        ? AppColors.white
                         : Colors.transparent
                     : isActiveMonth
-                        ? context.colors.white
+                        ? AppColors.white
                         : Colors.grey[300],
           ),
         ),

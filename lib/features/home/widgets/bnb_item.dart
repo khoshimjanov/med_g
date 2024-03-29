@@ -33,9 +33,9 @@ class BnbItem extends StatelessWidget {
                   ? Icon(
                       Icons.add_circle_outlined,
                       size: 32,
-                      color: index == state.activeIndex
-                          ? context.colors.skipButtonColor
-                          : context.colors.white,
+                      // color: index == state.activeIndex
+                      //     ? context.colors.skipButtonColor
+                      //     : AppColors.white,
                     )
                   : SvgPicture.asset(
                       icon,
@@ -49,9 +49,9 @@ class BnbItem extends StatelessWidget {
               Text(
                 title,
                 style: context.style.fontSize12Weight500.copyWith(
-                  color: index == state.activeIndex
-                      ? context.colors.skipButtonColor
-                      : context.colors.white,
+                  // color: index == state.activeIndex
+                  //     ? context.colors.skipButtonColor
+                  //     : AppColors.white,
                 ),
               ),
               const SizedBox(height: 10.5),

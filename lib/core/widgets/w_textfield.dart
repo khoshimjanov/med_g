@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:med_g/assets/colors.dart';
 import 'package:med_g/core/extensions/extensions.dart';
 
 class WTextField extends StatefulWidget {
@@ -202,7 +203,7 @@ class _WTextFieldState extends State<WTextField>
                             width: 1,
                             color: widget.hasError
                                 ? Theme.of(context).colorScheme.error
-                                : context.colors.blue.withOpacity(.1),
+                                : AppColors.blue.withOpacity(.1),
                           ),
                         ),
                         counterText: widget.hideCounterText != null &&
@@ -229,7 +230,7 @@ class _WTextFieldState extends State<WTextField>
                                 ? Colors.transparent
                                 : widget.hasError
                                     ? Theme.of(context).colorScheme.error
-                                    : context.colors.blue.withOpacity(.1),
+                                    : AppColors.blue.withOpacity(.1),
                           ),
                         ),
                         enabledBorder: OutlineInputBorder(
@@ -242,7 +243,7 @@ class _WTextFieldState extends State<WTextField>
                                 ? Colors.transparent
                                 : widget.hasError
                                     ? Theme.of(context).colorScheme.error
-                                    : context.colors.blue.withOpacity(.1),
+                                    : AppColors.blue.withOpacity(.1),
                           ),
                         ),
                         focusedBorder: OutlineInputBorder(
@@ -255,7 +256,7 @@ class _WTextFieldState extends State<WTextField>
                                 ? Colors.transparent
                                 : widget.hasError
                                     ? Theme.of(context).colorScheme.error
-                                    : context.colors.blue,
+                                    : AppColors.blue,
                           ),
                         ),
                       ),

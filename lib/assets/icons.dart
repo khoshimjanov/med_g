@@ -1,6 +1,6 @@
 const _bnb = 'assets/icons/bnb/';
 
-const path = "assets/icons/forgot_password/";
+// const path = "assets/icons/forgot_password/";
 const pathNotes="assets/icons/notes_svg/";
 
 const single = "assets/icons/single_category/";
@@ -16,6 +16,7 @@ const calendar = "assets/icons/calendar/";
 
 const createhomeitem = "assets/icons/create_home_items/";
 
+const path="assets/icons/";
 
 class AppIcons {
 
@@ -32,5 +33,20 @@ class AppIcons {
   static const arrowforwardios = "assets/icons/arrow_forward_ios.svg";
   static const arrowLeft = "assets/icons/arrow_left.svg";
   static const logoMain = "assets/icons/logo.svg";
+  static const logo="${path}logo.svg";
+  static const logo1="${path}/logo1.svg";
+  static const back="${path}/back.svg";
+  static const save="${path}/save.svg";
+  static const nonsave="${path}/non_save.svg";
+  static const notification="${path}/qungiroq.svg";
+  static const search="${path}/search.svg";
+  static const kardiol="${path}/kardiologiya.svg";
+  static const nevro="${path}/nevrolog.svg";
+  static const psix="${path}/psixologiya.svg";
+
+  static const medg = "assets/icons/medg.svg";
+  static const qollash = "assets/icons/qollash.svg";
+  static const logouts = "assets/icons/logouts.svg";
+
 
 }
